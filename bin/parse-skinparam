@@ -1,0 +1,65 @@
+#!/usr/bin/env php
+<?php
+
+namespace Potherca\PlantUmlSkinparamParser;
+
+set_error_handler(function($severity, $message, $file, $line) {
+    throw new \ErrorException($message, 0, $severity, $file, $line);
+});
+
+require_once dirname(__DIR__).'/src/convert_constants.php';
+require_once dirname(__DIR__).'/src/get_matches.php';
+require_once dirname(__DIR__).'/src/remove_blacklist.php';
+require_once dirname(__DIR__).'/src/upper_snake_to_camel_case.php';
+
+$delimiter = PHP_EOL;
+
+if (isset($argv[1]) === false || in_array('--help', $argv)) {
+    $output = 'Usage: '.(basename($argv[0])).' <plantuml-source-directory>'.PHP_EOL;
+} else {
+    $sourcePath = $argv[1];
+
+    /*/ Call each parser /*/
+    $skinParams = [];
+    $skinParamsParsers = glob(dirname(__DIR__).'/src/Parser/Skinparams/*.php');
+    array_walk($skinParamsParsers, function ($parser) use (&$skinParams) {
+        $skinParams = array_merge($skinParams, include($parser));
+    });
+
+    /*/ Exclude blacklisted values /*/
+    $skinParams = remove_blacklist($skinParams, [
+        'NoteShadowing',        // Does not seem to have any effect
+        'ReverseColor',         // Already covered by "skinparam monochrome reverse"
+        'StereotypePosition',   // Does not seem to have any effect
+        'Swimlane',             // Already covered by skinparam Swimlane[BorderColor|BorderThickness|width]
+        'Swimlanes',            // False positive
+        'TikzFont',             // I have no idea what this is supposed to do...
+    ]);
+
+    /*/ Grab each CONSTANT and value /*/
+    $constants = [];
+    $constantsParsers = glob(dirname(__DIR__).'/src/Parser/Constants/*.php');
+    array_walk($constantsParsers, function ($parser) use (&$constants) {
+        $constants = array_merge($constants, include($parser));
+    });
+
+    /*/ Convert CONSTANT values into actual values /*/
+    $skinParams = convert_constants($skinParams, $constants);
+
+    /*/Ouput result/*/
+    ksort($skinParams, SORT_FLAG_CASE | SORT_STRING);
+
+    $output = implode($delimiter, array_map(function ($value, $key) {
+            return sprintf('%s %s', ucfirst($key), $value);
+        },
+        $skinParams,
+        array_keys($skinParams)
+    ));
+
+    $output .= $delimiter;
+}
+
+echo $output;
+exit;
+
+/*EOF*/
