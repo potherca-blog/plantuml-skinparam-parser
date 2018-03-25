@@ -14,12 +14,12 @@ base.
 [PlantUML](https://plantuml.com/) is a great tool for drawing UML diagrams.
 It supports many diagrams and has _lots_ of features.
 
-One such feature, [`skinparam`](http://plantuml.com/skinparam) allows changing
+One such feature, [`skinparam`](https://plantuml.com/skinparam) allows changing
 the way diagrams look (or behave).
 
 Sadly, PlantUML also has some shortcomings, mostly in terms of documentation.
 
-The [manual](http://plantuml.com/PlantUML_Language_Reference_Guide.pdf) mentions
+The [manual](https://plantuml.com/PlantUML_Language_Reference_Guide.pdf) mentions
 `skinparam` and there is a command<sup>[1]</sup> to show a list of available
 `skinparam` but neither are complete.
 
@@ -35,7 +35,7 @@ in PHP<sup>[2]</sup>.
 There is [a full list of `skinparam`](./build/skinparams.txt) available in the `build` directory.
 There is also [a list with `skinparam` default values](./build/skinparams-defaults.txt).
 
-At a later point, a file will be added that [defines constants](http://plantuml.com/preprocessing)
+At a later point, a file will be added that [defines constants](https://plantuml.com/preprocessing)
 for the values rather than hard-coding them.
 
 The simplest thing is to just use those files.
@@ -65,7 +65,7 @@ git clone https://github.com/potherca-blog/plantuml-skinparam-parser.git
 - **Author**: Created by [Potherca](https://pother.ca/).
 - **Homepage**: [web-page](https://blog.pother.ca/plantuml-skinparam-parser/) / [git-repo](https://github.com/potherca-blog/plantuml-skinparam-parser/)
 - **License**: Licensed under the GPL-3.0 license (GNU General Public License v3.0)
-- **Logo**: Based on the ["SEO"](https://thenounproject.com/icon/463840/) icon by [Gregor Cresnar](http://iconix.si) from [the Noun Project](https://thenounproject.com/).
+- **Logo**: Based on the ["SEO"](https://thenounproject.com/icon/463840/) icon by [Gregor Cresnar](https://iconix.si) from [the Noun Project](https://thenounproject.com/).
 
 
 ## Footnotes
