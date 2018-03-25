@@ -7,6 +7,7 @@ set_error_handler(function($severity, $message, $file, $line) {
     throw new \ErrorException($message, 0, $severity, $file, $line);
 });
 
+require_once dirname(__DIR__).'/src/cleanup_keys.php';
 require_once dirname(__DIR__).'/src/convert_constants.php';
 require_once dirname(__DIR__).'/src/get_matches.php';
 require_once dirname(__DIR__).'/src/remove_blacklist.php';
@@ -45,6 +46,9 @@ if (isset($argv[1]) === false || in_array('--help', $argv)) {
 
     /*/ Convert CONSTANT values into actual values /*/
     $skinParams = convert_constants($skinParams, $constants);
+
+    /*/ Convert key names to consistent values /*/
+    $skinParams = cleanup_keys($skinParams);
 
     /*/Ouput result/*/
     ksort($skinParams, SORT_FLAG_CASE | SORT_STRING);
