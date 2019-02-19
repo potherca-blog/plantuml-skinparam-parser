@@ -5,7 +5,7 @@ namespace Potherca\PlantUmlSkinparamParser\Parser\Skinparams;
 $skinParams = [];
 
 $matches = \Potherca\PlantUmlSkinparamParser\get_matches(
-    'AlignParam',
+    'AlignmentParam',
     '^\s+(?P<Property>[A-Z_]+)\(HorizontalAlignment\.(?P<Alignment>[A-Z]+)\)(?:,|;)'
 );
 
