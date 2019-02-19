@@ -5,7 +5,7 @@ namespace Potherca\PlantUmlSkinparamParser\Parser\Skinparams;
 $skinParams = [];
 
 $matches = \Potherca\PlantUmlSkinparamParser\get_matches(
-    'RoundParam',
+    'CornerParam',
     '^\s+DEFAULT,([a-zA-Z, ]+);'
 );
 
