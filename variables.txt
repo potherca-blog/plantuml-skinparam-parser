@@ -1,0 +1,206 @@
+ BACKGROUND_COLOR
+
+ BORDER_COLOR
+ BORDER_THICKNESS
+
+ COLOR
+
+ FONT_COLOR
+ FONT_NAME
+ FONT_SIZE
+ FONT_STYLE
+
+ ROUNDCORNER
+
+ SIZE
+
+ TEXT_ALIGNMENT (for Message and Text)
+ TITLE_ALIGN (for Title and Reference)
+
+ WIDTH
+
+Instead of naming "primary" values something like PRIMARY_FOO, they are just named FOO.
+
+
+FONT_STYLE_EMPHASIS
+FONT_STYLE_STRONG
+
+TEXT_ALIGNMENT
+
+================================================================================
+ FontName
+--------------------------------------------------------------------------------
+     69 SansSerif
+      1 monospaced
+      1 Monospaced
+================================================================================
+ FontSize
+--------------------------------------------------------------------------------
+     47 14
+      6 13
+      6 12
+      4 10
+      3 11
+      2 18
+      1 17
+      1 13.5
+================================================================================
+ FontColor
+--------------------------------------------------------------------------------
+     68 black
+      2 #888888
+================================================================================
+ FontStyle
+--------------------------------------------------------------------------------
+     40 plain
+     23 italic
+      6 bold
+      1 normal
+================================================================================
+ BorderColor
+--------------------------------------------------------------------------------
+     20 #A80036
+     16 black
+      7 null
+      1
+================================================================================
+ BackgroundColor
+--------------------------------------------------------------------------------
+     28 #FEFECE
+      3 white
+      3 #EEEEEE
+      2 null
+      2 #DDDDDD
+      1 #FFFF44
+      1 #FF0000
+      1 #FBFB77
+      1 #F24D5C
+      1 #EB937F
+      1 #E3664A
+      1 #B4A7E5
+      1 #ADD1B2
+      1 #A9DCDF
+      1 #84BE84
+      1 #4177AF
+================================================================================
+ Color
+--------------------------------------------------------------------------------
+      7 black
+      1 white
+      1 #C82930
+      1 #B38D22
+      1 #A80036
+      1 #1963A0
+      1 #038048
+      1 #0000FF
+
+ActivityBarColor              black
+ActivityEndColor              black
+ActivityStartColor            black
+StateEndColor                 black
+StateStartColor               black
+
+ArrowColor                    #A80036
+ArrowLollipopColor            white
+HyperlinkColor                #0000FF
+
+IconIEMandatoryColor          black
+IconPackageColor              #1963A0
+IconPrivateColor              #C82930
+IconProtectedColor            #B38D22
+IconPublicColor               #038048
+
+SequenceNewpageSeparatorColor black
+================================================================================
+ Thickness
+--------------------------------------------------------------------------------
+     22 1.0
+
+*BorderThickness
+
+ArrowThickness 1.0
+SequenceArrowThickness 1.0
+Thickness 1.0
+
+================================================================================
+ RoundCorner
+--------------------------------------------------------------------------------
+ComponentRoundCorner     0
+DiagramBorderRoundCorner 0
+RectangleRoundCorner     0
+Roundcorner              0
+Titleborderroundcorner   0
+TitleBorderRoundCorner   0
+
+================================================================================
+ Align
+--------------------------------------------------------------------------------
+DefaultTextAlignment     left
+ArrowMessageAlign        left
+SequenceMessageAlign     left
+SequenceMessageTextAlign left
+PackageTitleAlignment    center
+SequenceReferenceAlign   center
+
+================================================================================
+ Width
+--------------------------------------------------------------------------------
+MinClassWidth    0
+SwimlaneWidth
+WrapMessageWidth 0
+WrapWidth        0
+
+================================================================================
+ Size
+--------------------------------------------------------------------------------
+ClassAttributeIconSize 10
+MaxMessageSize         0
+Tabsize                8
+
+================================================================================
+ Assorment - Boolean values
+--------------------------------------------------------------------------------
+Guillemet                 true
+Hyperlinkunderline        true
+Shadowing                 true
+Svgdimensionstyle         true
+Handwritten               false
+Monochrome                false
+Responsemessagebelowarrow false
+Sameclasswidth            false
+
+================================================================================
+ Assorted - Numeric values
+--------------------------------------------------------------------------------
+BoxPadding             10
+Circledcharacterradius 11
+Dpi                    92
+Groupinheritance        1
+Maxasciimessagelength   0
+Nodesep                35
+Padding                 0
+ParticipantPadding     10
+Ranksep                60
+
+================================================================================
+ Assorted - Other values
+--------------------------------------------------------------------------------
+Activityshape       roundBox
+Componentstyle
+Conditionstyle      inside
+Genericdisplay
+Linetype            splines
+Packagestyle        folder
+Pagemargin          (?)
+Sequenceparticipant
+Style
+Svglinktarget       _top
+
+================================================================================
+ Oddities for "color"
+--------------------------------------------------------------------------------
+Colorarrowseparationspace
+Pageexternalcolor
+Pathhovercolor
+
+/*EOF*/
