@@ -1,4 +1,6 @@
 # PlantUML `skinparam` parser
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpotherca-blog%2Fplantuml-skinparam-parser.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpotherca-blog%2Fplantuml-skinparam-parser?ref=badge_shield)
+
 
 <img src="./docs/plantuml-parser-logo.png" width="293" height="287" />
 
@@ -72,3 +74,7 @@ git clone https://github.com/potherca-blog/plantuml-skinparam-parser.git
 
 1. `java -jar plantuml.jar -language`
 2. I did say "quick" _and_ "dirty"
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpotherca-blog%2Fplantuml-skinparam-parser.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpotherca-blog%2Fplantuml-skinparam-parser?ref=badge_large)
