@@ -25,6 +25,7 @@ ActorStereotypeFontColor black
 ActorStereotypeFontName SansSerif
 ActorStereotypeFontSize 14
 ActorStereotypeFontStyle italic
+ActorStyle (?)
 AgentBackgroundColor #FEFECE
 AgentBorderColor #A80036
 AgentBorderThickness 1.0
@@ -37,11 +38,24 @@ AgentStereotypeFontColor black
 AgentStereotypeFontName SansSerif
 AgentStereotypeFontSize 14
 AgentStereotypeFontStyle italic
+ArchimateBackgroundColor #FEFECE
+ArchimateBorderColor black
+ArchimateBorderThickness 1.0
+ArchimateFontColor black
+ArchimateFontName SansSerif
+ArchimateFontSize 14
+ArchimateFontStyle plain
+ArchimateRoundcorner 0
+ArchimateStereotypeFontColor black
+ArchimateStereotypeFontName SansSerif
+ArchimateStereotypeFontSize 14
+ArchimateStereotypeFontStyle italic
 ArrowColor #A80036
 ArrowFontColor black
 ArrowFontName SansSerif
 ArrowFontSize 13
 ArrowFontStyle plain
+ArrowHeadColor #A80036
 ArrowLollipopColor white
 ArrowThickness 1.0
 ArtifactBackgroundColor #FEFECE
@@ -133,6 +147,7 @@ ComponentStereotypeFontName SansSerif
 ComponentStereotypeFontSize 14
 ComponentStereotypeFontStyle italic
 ComponentStyle 
+ConditionendStyle (?)
 ConditionStyle inside
 ControlBackgroundColor #FEFECE
 ControlBorderColor #A80036
@@ -266,6 +281,7 @@ LegendFontSize 14
 LegendFontStyle plain
 LexicalBackgroundColor white
 LexicalBorderColor black
+Lifelinestrategy (?)
 Linetype splines
 MachineBackgroundColor white
 MachineBorderColor black
@@ -339,6 +355,10 @@ ParticipantFontSize 14
 ParticipantFontStyle plain
 ParticipantPadding 10
 Participantpadding (?)
+ParticipantStereotypeFontColor black
+ParticipantStereotypeFontName SansSerif
+ParticipantStereotypeFontSize 14
+ParticipantStereotypeFontStyle italic
 PartitionBackgroundColor #FEFECE
 PartitionBorderColor black
 PartitionBorderThickness 1.0
@@ -347,8 +367,10 @@ PartitionFontName SansSerif
 PartitionFontSize 14
 PartitionFontStyle plain
 PathHoverColor 
+Preserveaspectratio (?)
 QueueBackgroundColor #FEFECE
 QueueBorderColor #A80036
+QueueBorderThickness 1.0
 QueueFontColor black
 QueueFontName SansSerif
 QueueFontSize 14
@@ -418,6 +440,8 @@ SequenceGroupHeaderFontStyle bold
 SequenceLifelineBackgroundColor white
 SequenceLifelineBorderColor #A80036
 SequenceLifelineBorderThickness 1.0
+SequenceMessagebackgroundColor (?)
+SequenceMessageBorderColor (?)
 SequenceNewPageSeparatorColor black
 SequenceParticipant 
 SequenceParticipantBorderThickness 1.0
@@ -433,10 +457,6 @@ SequenceStereotypeFontColor black
 SequenceStereotypeFontName SansSerif
 SequenceStereotypeFontSize 14
 SequenceStereotypeFontStyle italic
-SequenceTitleFontColor black
-SequenceTitleFontName SansSerif
-SequenceTitleFontSize 14
-SequenceTitleFontStyle bold
 Shadowing true
 StackBackgroundColor #FEFECE
 StackBorderColor #A80036
@@ -462,6 +482,7 @@ StateFontStyle plain
 StateStartColor black
 StereotypeABackgroundColor #A9DCDF
 StereotypeABorderColor null
+StereotypeAlignment (?)
 StereotypeCBackgroundColor #ADD1B2
 StereotypeCBorderColor null
 StereotypeEBackgroundColor #EB937F
@@ -485,6 +506,7 @@ SvgDimensionStyle true
 SvgLinktarget _top
 SwimlaneBorderColor black
 SwimlaneBorderThickness 1.0
+SwimlaneTitleBackgroundColor null
 SwimlaneTitleFontColor black
 SwimlaneTitleFontName SansSerif
 SwimlaneTitleFontSize 18

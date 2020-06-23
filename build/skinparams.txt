@@ -25,6 +25,7 @@ ActorStereotypeFontColor
 ActorStereotypeFontName
 ActorStereotypeFontSize
 ActorStereotypeFontStyle
+ActorStyle
 AgentBackgroundColor
 AgentBorderColor
 AgentBorderThickness
@@ -37,11 +38,24 @@ AgentStereotypeFontColor
 AgentStereotypeFontName
 AgentStereotypeFontSize
 AgentStereotypeFontStyle
+ArchimateBackgroundColor
+ArchimateBorderColor
+ArchimateBorderThickness
+ArchimateFontColor
+ArchimateFontName
+ArchimateFontSize
+ArchimateFontStyle
+ArchimateRoundcorner
+ArchimateStereotypeFontColor
+ArchimateStereotypeFontName
+ArchimateStereotypeFontSize
+ArchimateStereotypeFontStyle
 ArrowColor
 ArrowFontColor
 ArrowFontName
 ArrowFontSize
 ArrowFontStyle
+ArrowHeadColor
 ArrowLollipopColor
 ArrowThickness
 ArtifactBackgroundColor
@@ -133,6 +147,7 @@ ComponentStereotypeFontName
 ComponentStereotypeFontSize
 ComponentStereotypeFontStyle
 ComponentStyle
+ConditionendStyle
 ConditionStyle
 ControlBackgroundColor
 ControlBorderColor
@@ -266,6 +281,7 @@ LegendFontSize
 LegendFontStyle
 LexicalBackgroundColor
 LexicalBorderColor
+Lifelinestrategy
 Linetype
 MachineBackgroundColor
 MachineBorderColor
@@ -339,6 +355,10 @@ ParticipantFontSize
 ParticipantFontStyle
 ParticipantPadding
 Participantpadding
+ParticipantStereotypeFontColor
+ParticipantStereotypeFontName
+ParticipantStereotypeFontSize
+ParticipantStereotypeFontStyle
 PartitionBackgroundColor
 PartitionBorderColor
 PartitionBorderThickness
@@ -347,8 +367,10 @@ PartitionFontName
 PartitionFontSize
 PartitionFontStyle
 PathHoverColor
+Preserveaspectratio
 QueueBackgroundColor
 QueueBorderColor
+QueueBorderThickness
 QueueFontColor
 QueueFontName
 QueueFontSize
@@ -418,6 +440,8 @@ SequenceGroupHeaderFontStyle
 SequenceLifelineBackgroundColor
 SequenceLifelineBorderColor
 SequenceLifelineBorderThickness
+SequenceMessagebackgroundColor
+SequenceMessageBorderColor
 SequenceNewPageSeparatorColor
 SequenceParticipant
 SequenceParticipantBorderThickness
@@ -433,10 +457,6 @@ SequenceStereotypeFontColor
 SequenceStereotypeFontName
 SequenceStereotypeFontSize
 SequenceStereotypeFontStyle
-SequenceTitleFontColor
-SequenceTitleFontName
-SequenceTitleFontSize
-SequenceTitleFontStyle
 Shadowing
 StackBackgroundColor
 StackBorderColor
@@ -462,6 +482,7 @@ StateFontStyle
 StateStartColor
 StereotypeABackgroundColor
 StereotypeABorderColor
+StereotypeAlignment
 StereotypeCBackgroundColor
 StereotypeCBorderColor
 StereotypeEBackgroundColor
@@ -485,6 +506,7 @@ SvgDimensionStyle
 SvgLinktarget
 SwimlaneBorderColor
 SwimlaneBorderThickness
+SwimlaneTitleBackgroundColor
 SwimlaneTitleFontColor
 SwimlaneTitleFontName
 SwimlaneTitleFontSize
