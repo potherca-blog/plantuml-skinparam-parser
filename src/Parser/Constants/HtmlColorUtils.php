@@ -3,7 +3,7 @@
 $constants = [];
 
 $matches = \Potherca\PlantUmlSkinparamParser\get_matches(
-    'graphic/HtmlColorUtils',
+    'ugraphic/color/HColorUtils',
     '^\s+(?P<NAME>.+?)\s?=\s?set.getColorIfValid\("(?P<VALUE>[^"]+)"\)'
 );
 
