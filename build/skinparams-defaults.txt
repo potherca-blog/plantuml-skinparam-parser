@@ -1,6 +1,6 @@
-ActivityBackgroundColor #FEFECE
-ActivityBarColor black
-ActivityBorderColor #A80036
+ActivityBackgroundColor MY_YELLOW
+ActivityBarColor
+ActivityBorderColor MY_RED
 ActivityBorderThickness 1.0
 ActivityDiamondBackgroundColor #FEFECE
 ActivityDiamondBorderColor #A80036
@@ -15,8 +15,8 @@ ActivityFontSize 12
 ActivityFontStyle plain
 ActivityShape roundBox
 ActivityStartColor black
-ActorBackgroundColor #FEFECE
-ActorBorderColor #A80036
+ActorBackgroundColor MY_YELLOW
+ActorBorderColor MY_RED
 ActorFontColor black
 ActorFontName SansSerif
 ActorFontSize 14
@@ -55,7 +55,7 @@ ArrowFontColor black
 ArrowFontName SansSerif
 ArrowFontSize 13
 ArrowFontStyle plain
-ArrowHeadColor #A80036
+ArrowHeadColor MY_RED
 ArrowLollipopColor white
 ArrowThickness 1.0
 ArtifactBackgroundColor #FEFECE
@@ -109,8 +109,8 @@ ClassAttributeFontName SansSerif
 ClassAttributeFontSize 10
 ClassAttributeFontStyle plain
 ClassAttributeIconSize 10
-ClassBackgroundColor #FEFECE
-ClassBorderColor #A80036
+ClassBackgroundColor MY_YELLOW
+ClassBorderColor MY_RED
 ClassBorderThickness 1.0
 ClassFontColor black
 ClassFontName SansSerif
@@ -146,7 +146,7 @@ ComponentStereotypeFontColor black
 ComponentStereotypeFontName SansSerif
 ComponentStereotypeFontSize 14
 ComponentStereotypeFontStyle italic
-ComponentStyle 
+ComponentStyle
 ConditionendStyle (?)
 ConditionStyle inside
 ControlBackgroundColor #FEFECE
@@ -178,6 +178,10 @@ DefaultTextAlignment left
 DesignedBackgroundColor white
 DesignedBorderColor black
 DesignedDomainBorderThickness 1.0
+DesignedDomainFontColor
+DesignedDomainFontName
+DesignedDomainFontSize
+DesignedDomainFontStyle
 DesignedDomainStereotypeFontColor black
 DesignedDomainStereotypeFontName SansSerif
 DesignedDomainStereotypeFontSize 12
@@ -243,7 +247,7 @@ FrameStereotypeFontColor black
 FrameStereotypeFontName SansSerif
 FrameStereotypeFontSize 14
 FrameStereotypeFontStyle italic
-GenericDisplay 
+GenericDisplay
 GroupInheritance 1
 Guillemet true
 Handwritten false
@@ -251,17 +255,27 @@ HeaderFontColor #888888
 HeaderFontName SansSerif
 HeaderFontSize 10
 HeaderFontStyle plain
-HyperlinkColor #0000FF
+HexagonBorderThickness 1.0
+HexagonFontColor black
+HexagonFontName SansSerif
+HexagonFontSize 14
+HexagonFontStyle plain
+HexagonRoundCorner 0
+HexagonStereotypeFontColor black
+HexagonStereotypeFontName SansSerif
+HexagonStereotypeFontSize 14
+HexagonStereotypeFontStyle italic
+HyperlinkColor blue
 HyperlinkUnderline true
 IconIEMandatoryColor black
-IconPackageBackgroundColor #4177AF
-IconPackageColor #1963A0
-IconPrivateBackgroundColor #F24D5C
-IconPrivateColor #C82930
-IconProtectedBackgroundColor #FFFF44
-IconProtectedColor #B38D22
-IconPublicBackgroundColor #84BE84
-IconPublicColor #038048
+IconPackageBackgroundColor COL_4177AF
+IconPackageColor COL_1963A0
+IconPrivateBackgroundColor COL_F24D5C
+IconPrivateColor COL_C82930
+IconProtectedBackgroundColor COL_FFFF44
+IconProtectedColor COL_B38D22
+IconPublicBackgroundColor COL_84BE84
+IconPublicColor COL_038048
 InterfaceBackgroundColor #FEFECE
 InterfaceBorderColor #A80036
 InterfaceFontColor black
@@ -272,6 +286,14 @@ InterfaceStereotypeFontColor black
 InterfaceStereotypeFontName SansSerif
 InterfaceStereotypeFontSize 14
 InterfaceStereotypeFontStyle italic
+LabelFontColor black
+LabelFontName SansSerif
+LabelFontSize 14
+LabelFontStyle plain
+LabelStereotypeFontColor black
+LabelStereotypeFontName SansSerif
+LabelStereotypeFontSize 14
+LabelStereotypeFontStyle italic
 LegendBackgroundColor #DDDDDD
 LegendBorderColor black
 LegendBorderThickness 1.0
@@ -279,6 +301,7 @@ LegendFontColor black
 LegendFontName SansSerif
 LegendFontSize 14
 LegendFontStyle plain
+Lengthadjust (?)
 LexicalBackgroundColor white
 LexicalBorderColor black
 Lifelinestrategy (?)
@@ -309,8 +332,8 @@ NodeStereotypeFontColor black
 NodeStereotypeFontName SansSerif
 NodeStereotypeFontSize 14
 NodeStereotypeFontStyle italic
-NoteBackgroundColor #FBFB77
-NoteBorderColor #A80036
+NoteBackgroundColor COL_FBFB77
+NoteBorderColor MY_RED
 NoteBorderThickness 1.0
 NoteFontColor black
 NoteFontName SansSerif
@@ -343,9 +366,10 @@ PackageStereotypeFontName SansSerif
 PackageStereotypeFontSize 14
 PackageStereotypeFontStyle italic
 PackageStyle folder
+PackageTitleAlignment
 Padding 0
-PageBorderColor 
-PageExternalColor 
+PageBorderColor
+PageExternalColor
 PageMargin (?)
 ParticipantBackgroundColor #FEFECE
 ParticipantBorderColor #A80036
@@ -353,8 +377,8 @@ ParticipantFontColor black
 ParticipantFontName SansSerif
 ParticipantFontSize 14
 ParticipantFontStyle plain
-ParticipantPadding 10
 Participantpadding (?)
+ParticipantPadding 10
 ParticipantStereotypeFontColor black
 ParticipantStereotypeFontName SansSerif
 ParticipantStereotypeFontSize 14
@@ -366,7 +390,17 @@ PartitionFontColor black
 PartitionFontName SansSerif
 PartitionFontSize 14
 PartitionFontStyle plain
-PathHoverColor 
+PathHoverColor
+PersonBorderThickness 1.0
+PersonFontColor black
+PersonFontName SansSerif
+PersonFontSize 14
+PersonFontStyle plain
+PersonRoundcorner 0
+PersonStereotypeFontColor black
+PersonStereotypeFontName SansSerif
+PersonStereotypeFontSize 14
+PersonStereotypeFontStyle italic
 Preserveaspectratio (?)
 QueueBackgroundColor #FEFECE
 QueueBorderColor #A80036
@@ -393,8 +427,8 @@ RectangleStereotypeFontName SansSerif
 RectangleStereotypeFontSize 14
 RectangleStereotypeFontStyle italic
 RequirementBackgroundColor white
-RequirementBorder;Thickness 1.0
 RequirementBorderColor black
+RequirementBorderThickness 1.0
 RequirementFontColor black
 RequirementFontName SansSerif
 RequirementFontSize 12
@@ -409,7 +443,7 @@ SameClassWidth false
 SequenceActorBorderThickness 1.0
 SequenceArrowThickness 1.0
 SequenceBoxBackgroundColor #DDDDDD
-SequenceBoxBorderColor #A80036
+SequenceBoxBorderColor MY_RED
 SequenceBoxFontColor black
 SequenceBoxFontName SansSerif
 SequenceBoxFontSize 13
@@ -426,7 +460,7 @@ SequenceDividerFontName SansSerif
 SequenceDividerFontSize 13
 SequenceDividerFontStyle bold
 SequenceGroupBackgroundColor #EEEEEE
-SequenceGroupBodyBackgroundColor #FF0000
+SequenceGroupBodyBackgroundColor red
 SequenceGroupBorderColor black
 SequenceGroupBorderThickness 1.0
 SequenceGroupFontColor black
@@ -438,13 +472,16 @@ SequenceGroupHeaderFontName SansSerif
 SequenceGroupHeaderFontSize 13
 SequenceGroupHeaderFontStyle bold
 SequenceLifelineBackgroundColor white
-SequenceLifelineBorderColor #A80036
+SequenceLifelineBorderColor MY_RED
 SequenceLifelineBorderThickness 1.0
+SequenceMessageAlignment
 SequenceMessagebackgroundColor (?)
 SequenceMessageBorderColor (?)
+SequenceMessageTextAlignment
 SequenceNewPageSeparatorColor black
-SequenceParticipant 
+SequenceParticipant
 SequenceParticipantBorderThickness 1.0
+SequenceReferenceAlignment
 SequenceReferenceBackgroundColor white
 SequenceReferenceBorderColor black
 SequenceReferenceBorderThickness 1.0
@@ -452,7 +489,7 @@ SequenceReferenceFontColor black
 SequenceReferenceFontName SansSerif
 SequenceReferenceFontSize 13
 SequenceReferenceFontStyle plain
-SequenceReferenceHeaderBackgroundColor #EEEEEE
+SequenceReferenceHeaderBackgroundColor COL_EEEEEE
 SequenceStereotypeFontColor black
 SequenceStereotypeFontName SansSerif
 SequenceStereotypeFontSize 14
@@ -473,13 +510,14 @@ StateAttributeFontName SansSerif
 StateAttributeFontSize 12
 StateAttributeFontStyle plain
 StateBackgroundColor #FEFECE
-StateBorderColor #A80036
+StateBorderColor MY_RED
 StateEndColor black
 StateFontColor black
 StateFontName SansSerif
 StateFontSize 14
 StateFontStyle plain
 StateStartColor black
+StateMessageAlignment
 StereotypeABackgroundColor #A9DCDF
 StereotypeABorderColor null
 StereotypeAlignment (?)
@@ -491,6 +529,7 @@ StereotypeIBackgroundColor #B4A7E5
 StereotypeIBorderColor null
 StereotypeNBackgroundColor #E3664A
 StereotypeNBorderColor null
+StereotypePosition
 StorageBackgroundColor #FEFECE
 StorageBorderColor black
 StorageFontColor black
@@ -501,7 +540,7 @@ StorageStereotypeFontColor black
 StorageStereotypeFontName SansSerif
 StorageStereotypeFontSize 14
 StorageStereotypeFontStyle italic
-Style 
+Style
 SvgDimensionStyle true
 SvgLinktarget _top
 SwimlaneBorderColor black
@@ -511,7 +550,7 @@ SwimlaneTitleFontColor black
 SwimlaneTitleFontName SansSerif
 SwimlaneTitleFontSize 18
 SwimlaneTitleFontStyle plain
-SwimlaneWidth 
+SwimlaneWidth
 SwimlanewraptitleWidth (?)
 TabSize 8
 Thickness 1.0
